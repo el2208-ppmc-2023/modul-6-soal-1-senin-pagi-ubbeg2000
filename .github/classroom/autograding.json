@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "halo\r\ndunia",
+      "output": "Kata pertama adalah isogram\r\nKata kedua adalah isogram\r\nGabungan kata \"halodunia\" bukanlah isogram",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "hello\r\nworld",
+      "output": "Kata pertama bukanlah isogram\r\nKata kedua adalah isogram\r\nGabungan kata \"helloworld\" bukanlah isogram",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./make",
+      "input": "abc\r\nABC",
+      "output": "Kata pertama adalah isogram\r\nKata kedua adalah isogram\r\nGabungan kata \"abcABC\" bukanlah isogram",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "One\r\nPiece",
+      "output": "Kata pertama adalah isogram\r\nKata kedua bukanlah isogram\r\nGabungan kata \"OnePiece\" bukanlah isogram",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "Elektro\r\nITB",
+      "output": "Kata pertama bukanlah isogram\r\nKata kedua adalah isogram\r\nGabungan kata \"ElektroITB\" bukanlah isogram",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "./main",
+      "input": "praktikum\r\nseru",
+      "output": "Kata pertama bukanlah isogram\r\nKata kedua adalah isogram\r\nGabungan kata \"praktikumseru\" bukanlah isogram",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "./main",
+      "input": "isogram\r\nez",
+      "output": "Kata pertama adalah isogram\r\nKata kedua adalah isogram\r\nGabungan kata \"isogramez\" adalah isogram",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "./main",
+      "input": "123\r\nsatuduatiga",
+      "output": "Kata pertama adalah isogram\r\nKata kedua bukanlah isogram\r\nGabungan kata \"123satuduatiga\" bukanlah isogram",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "",
+      "run": "./main",
+      "input": "qwerty\r\nuiop",
+      "output": "Kata pertama adalah isogram\r\nKata kedua adalah isogram\r\nGabungan kata \"qwertyuiop\" adalah isogram",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./main",
+      "input": "AbCdE\r\naBcDe",
+      "output": "Kata pertama adalah isogram\r\nKata kedua adalah isogram\r\nGabungan kata \"AbCdEaBcDe\" bukanlah isogram",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
