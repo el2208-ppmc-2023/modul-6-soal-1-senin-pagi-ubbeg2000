@@ -23,7 +23,7 @@
     {
       "name": "3",
       "setup": "",
-      "run": "./make",
+      "run": "./main",
       "input": "abc\r\nABC",
       "output": "Kata pertama adalah isogram\r\nKata kedua adalah isogram\r\nGabungan kata \"abcABC\" bukanlah isogram",
       "comparison": "included",
